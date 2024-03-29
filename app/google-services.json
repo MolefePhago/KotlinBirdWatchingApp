@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "204291862992",
+    "project_id": "birdview-5b24c",
+    "storage_bucket": "birdview-5b24c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204291862992:android:73ff48bf94367c4a3809d5",
+        "android_client_info": {
+          "package_name": "com.example.birdtrackingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204291862992-gc0ojvlpue3v8t5575alfk484n4hld7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALtzWUuPnz6W5x6JEnMYiNjQL6ihwn0os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204291862992-gc0ojvlpue3v8t5575alfk484n4hld7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204291862992:android:b78557518253a39c3809d5",
+        "android_client_info": {
+          "package_name": "com.example.birdview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204291862992-gc0ojvlpue3v8t5575alfk484n4hld7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALtzWUuPnz6W5x6JEnMYiNjQL6ihwn0os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204291862992-gc0ojvlpue3v8t5575alfk484n4hld7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

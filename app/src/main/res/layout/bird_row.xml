@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="4dp"
+    app:cardElevation="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/LayoutImage"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp">
+            <ImageView
+                android:id="@+id/BirdImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/BirdName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bird Name"
+            android:layout_toEndOf="@id/LayoutImage"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/BirdDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/LayoutImage"
+            android:layout_below="@id/BirdName"
+            android:textColor="@color/black"
+            android:text="Description"
+            android:maxLines="3"/>
+        <TextView
+            android:id="@+id/BirdCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/LayoutImage"
+            android:textColor="@color/black"
+            android:layout_below="@id/BirdDescription"
+            android:text="Specie"/>
+        <TextView
+            android:id="@+id/BirdDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/LayoutImage"
+            android:textColor="@color/black"
+            android:layout_below="@id/BirdCategory"
+            android:text="Date"/>
+        <TextView
+            android:id="@+id/BirdLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/LayoutImage"
+            android:textColor="@color/black"
+            android:layout_below="@id/BirdDate"
+            android:text="Location"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

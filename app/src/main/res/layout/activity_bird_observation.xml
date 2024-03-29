@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayouts"
+    tools:context=".BirdObservation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/primary_color">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Observations"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="50sp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/SpecieList"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="20dp"
+            android:padding="7dp"
+            tools:listitem="@layout/bird_row"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_views"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/menu"
+        app:headerLayout="@layout/nav_header"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true">
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

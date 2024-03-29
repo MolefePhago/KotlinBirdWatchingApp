@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BirdView</string>
+    <string name="started_title">Hello You!</string>
+    <string name="started_sub_title">
+        Nice to meet you,come join our community!
+        <br><b>Login</b> if you already have an account.</br>
+        <br><b>Register</b> to get started with the app.</br>
+    </string>
+    <string name="illustration_img" />
+    <string name="btn_register">REGISTER</string>
+    <string name="mapbox_access_token">sk.eyJ1Ijoic3QxMDA5MjA0OCIsImEiOiJjbG01bjQzcWIwNnc5M2RsZ2QzMXNxdHJsIn0.bhIY-gZDqm-6ADoQGo8b3g</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="login_title">Login to app</string>
+    <string name="login_sub_title">
+        <font color="00C9B8"><b>Login</b></font>
+    if you already have an account.
+    </string>
+    <string name="login_email">Your email or username</string>
+    <string name="login_password">Your password</string>
+    <string name="login_forgot_pw">Forgot Password?</string>
+    <string name="login_havent_account">
+        I don\'t have an account
+        <font color="#00C9B8"><b>Register</b></font>
+    </string>
+    <string name="register_title">Create an account</string>
+    <string name="register_sub_title">
+        <font color="00C9B8"><b>Register</b></font>
+        to get started with the app.
+    </string>
+    <string name="register_fullname">Your full name</string>
+    <string name="register_email">Your email</string>
+    <string name="register_username">Your username</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="register_have_account">
+        I already have an account
+        <font color="00C9B8"><b>Login</b></font>
+    </string>
+    <string name="home_title">Hello World!</string>
+    <string name="home_sub_title">Welcome to home</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="title_activity_map_v2">MapV2</string>
+</resources>

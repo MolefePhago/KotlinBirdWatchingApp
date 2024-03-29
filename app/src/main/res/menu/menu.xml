@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Map"
+        android:title="Map"
+        android:icon="@drawable/baseline_map_24">
+    </item>
+    <item
+        android:id="@+id/Entry"
+        android:title="Entry"
+        android:icon="@drawable/baseline_article_24">
+    </item>
+    <item
+        android:id="@+id/info"
+        android:title="Bird Hub"
+        android:icon="@drawable/baseline_info_24">
+    </item>
+    <item
+        android:id="@+id/Homepage"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24">
+    </item>
+
+    <item android:title="Features">
+        <menu>
+            <item
+                android:id="@+id/Category"
+                android:title="Category"
+                android:icon="@drawable/baseline_category_24">
+            </item>
+
+        </menu>
+    </item>
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/baseline_logout_24">
+            </item>
+            <item
+                android:id="@+id/Settings"
+                android:title="Settings"
+                android:icon="@drawable/baseline_settings_24">
+            </item>
+        </menu>
+    </item>
+</menu>
